@@ -8,12 +8,15 @@
     margin: 0 auto;
 }
 
-.icon-bar > a {
-    float: left; 
-    text-align: center; 
-    width: 3%; 
-    color: #eb3532; 
+
+.logo {
+    color: #eb3532;
     font-size: 32px; 
+}
+
+.icon-bar a.menu-item {
+    font-size: 20px;
+    color: white;
 }
 
 .dropbtn {
@@ -27,6 +30,15 @@
 
 .dropdown {
     position: relative;
+    display: inline-block;
+}
+
+.group-right {
+    float: right;
+}
+
+.group-right a.menu-item {
+    padding: 10px;
     display: inline-block;
 }
 
@@ -57,54 +69,23 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-;ll
+
 .dropdown:hover .dropbtn {
     background-color: #000;
 }
 
 
-.notifs {
-    width: 3%; 
-    color: #f2f2f2; 
-    font-size: 20px; 
-    cursor: pointer;
-}
-
-.infoic {
-    width: 3%; 
-    color: #f2f2f2; 
-    font-size: 30px;
-    cursor: pointer;
-}
-
-
-
-.btnproj {
-    margin-top: 6px;
-    margin-bottom: 6px;
-    margin-right: 18px;
-    background-color: #028ad8; 
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;  
-    border-radius: 2px;
-    cursor: pointer;
-}
-
-.userlog {
-    margin-top: 6px;
-    margin-bottom: 6px;
-    margin-right: 18px;
-    background-color: #eb5757; 
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;  
+.avatar {
+    background-color: #f00;
+    padding: 4px 6px;
     border-radius: 50%;
-    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    color: white;
+}
+
+.btn.btn-primary {
+    background-color: #028ad8; 
 }
 
 h4 {
