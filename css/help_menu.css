@@ -107,3 +107,42 @@
     cursor: pointer;
 }
 
+h4 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.panlist {
+  border: solid 1px #bdbdbd;
+  background-color: #edeaea;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 240px;
+}
+
+
+.vertdots {
+  float: right;
+}
+
+.vertdots:after {
+  content: '\2807';
+  font-size: 40px;
+  color: #c4c4c4;
+}
+
+.txtstyle {
+  padding: 8px;
+}
+
+.widsic  {
+  float: right;
+  font-size: 32px;
+  margin-top: 6px; 
+  background-color: #d5d35a;
+}
+
+
+
