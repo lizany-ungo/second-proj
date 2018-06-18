@@ -146,7 +146,9 @@ h4 {
   color:#656565;
 }
 
-.select-style {
-  
+select {
+  border:0px;
+  outline:0px;
+  margin-top: 50px;
 }
 
