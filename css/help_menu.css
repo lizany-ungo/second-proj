@@ -127,7 +127,7 @@ h4 {
   position: relative;
   color: #fcfcfc;
   font-size: 14px;
-  margin-top: 50px;
+  margin-top: 60px;
   
 }
 
@@ -151,4 +151,30 @@ select {
   outline:0px;
   margin-top: 50px;
 }
+
+ .table {
+  margin-top: 40px;
+ }
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+
+.pagination a {
+    margin-left: 25px;
+    padding: 2px 1px;
+    text-decoration: none;
+}
+
+.pagination a.disabled { 
+    color: #cfcfcf;
+    font-weight: bold;
+  }
+
+.pagination a.current {
+  color:#4f4f4f;
+}
+
+
 
